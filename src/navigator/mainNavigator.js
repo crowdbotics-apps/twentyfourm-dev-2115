@@ -7,7 +7,6 @@ import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import UserProfile800Navigator from '../features/UserProfile800/navigator';
 import EmailAuth799Navigator from '../features/EmailAuth799/navigator';
-import EmailAuthNavigator from '../features/EmailAuth/navigator';
 
 /**
  * new navigators can be imported here
@@ -20,7 +19,6 @@ const AppNavigator = {
     //@BlueprintNavigationInsertion
 UserProfile800: { screen: UserProfile800Navigator },
 EmailAuth799: { screen: EmailAuth799Navigator },
-EmailAuth: { screen: EmailAuthNavigator },
 
     /** new navigators can be added here */
 };
