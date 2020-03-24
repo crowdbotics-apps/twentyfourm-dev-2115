@@ -36,3 +36,4 @@ class HomePage(models.Model):
 class TThgh(models.Model):
     "Generated Model"
     hghg = models.BigIntegerField()
+    rfrgsfgs = models.BigIntegerField(null=True, blank=True,)
